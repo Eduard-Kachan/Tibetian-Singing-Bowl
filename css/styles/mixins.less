@@ -1,0 +1,28 @@
+@import: 'brand.less';
+@import: 'typography.less';
+
+.box-sizing () {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:    border-box;
+  box-sizing:         border-box;
+}
+
+.rotate(@degree:90deg){
+	-webkit-transform: rotate(@degree);
+	-moz-transform: rotate(@degree);
+	-o-transform: rotate(@degree);
+	transform: rotate(@degree);
+}
+
+
+
+.square(@width){
+	width: @width;
+	height: @width;
+}
+
+.circle(@width){
+	width: @width;
+	height: @width;
+	border-radius: 50%;
+}

@@ -1,0 +1,274 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight: 100;
+  color: #fefefe;
+}
+p {
+  font-size: 1.5em;
+}
+h1 {
+  font-family: 'Exo', sans-serif;
+  font-size: 2em;
+}
+h2 {
+  font-family: 'Exo', sans-serif;
+  font-size: 2em;
+}
+h3 {
+  font-family: 'Exo', sans-serif;
+  font-size: 2em;
+}
+a {
+  color: #d8295f;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+body {
+  width: 100%;
+  *zoom: 1;
+}
+body:before,
+body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+.wrapper {
+  width: 960px;
+  height: 1847px;
+  margin: 0 auto;
+}
+.wrapper2 {
+  width: 960px;
+  height: 1666px;
+  margin: 0 auto;
+}
+.object1 {
+  display: inline;
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+  height: 1167px;
+  overflow: hidden;
+  position: relative;
+}
+.object1 .positionElement {
+  position: relative;
+  top: -740px;
+  z-index: -1;
+}
+.object1 .positionElement .element {
+  width: 940px;
+  height: 940px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  position: relative;
+  overflow: hidden;
+}
+.object1 .positionElement .element:before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  z-index: -1;
+  background: url(../images/mountainsBG.jpg) 394px 436px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.blank2 {
+  display: inline;
+  float: left;
+  width: 140px;
+  margin: 0 10px;
+  height: 1px;
+}
+.blank3 {
+  display: inline;
+  float: left;
+  width: 220px;
+  margin: 0 10px;
+  height: 1px;
+}
+.blank4 {
+  display: inline;
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+  height: 1px;
+}
+.siteHeading {
+  display: inline;
+  width: 620px;
+  margin: 0 10px;
+  margin-top: 100px;
+  float: left;
+  font-size: 1.9em;
+  color: #539ca6;
+}
+.siteHeading h1 {
+  text-align: center;
+}
+.circleBG {
+  width: 540px;
+  height: 540px;
+  border-radius: 50%;
+  margin: 233px auto 0;
+  background: url(../images/mountainsBG.jpg) 655px 616px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  position: relative;
+}
+.circleBG .buddha {
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+  margin: 0px auto 0px;
+  background: url(../images/buddha.png) no-repeat;
+  width: 710px;
+  height: 577px;
+  position: absolute;
+  top: -66px;
+  left: -85px;
+}
+.object2 {
+  display: inline;
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+  margin-top: -254px;
+  height: 934px;
+  overflow: hidden;
+  position: relative;
+}
+.object2 .positionElement {
+  position: relative;
+  top: -535px;
+  z-index: -1;
+}
+.object2 .positionElement .element {
+  width: 940px;
+  height: 940px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  position: relative;
+  overflow: hidden;
+}
+.object2 .positionElement .element:before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  z-index: -1;
+  background: url(../images/mountains2BG.jpg) 441px 276px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.nav {
+  display: inline;
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+  margin-top: 85px;
+  margin-right: 310px;
+}
+.nav ul {
+  margin-left: -15px;
+}
+.welcomeBlurb {
+  display: inline;
+  float: left;
+  width: 620px;
+  margin: 0 10px;
+  margin-top: 280px;
+}
+.welcomeBlurb p:last-child {
+  margin-top: 30px;
+  border-top: 2px solid #fefefe;
+  padding: 30px;
+}
+.object3 {
+  width: 680px;
+  height: 311px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+.object3 .positionElement {
+  position: relative;
+  top: -707px;
+  z-index: -1;
+}
+.object3 .positionElement .element {
+  width: 680px;
+  height: 680px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  position: relative;
+  overflow: hidden;
+}
+.object3 .positionElement .element:before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  bottom: -50%;
+  left: -50%;
+  z-index: -1;
+  background: url(../images/mountainsBG.jpg) 254px 0px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.topHeader {
+  float: left;
+  width: 680px;
+  margin: 19px 10px 0;
+  color: #73d8e5;
+}
+.nav2 {
+  width: 680px;
+  margin-top: 115px;
+  margin-right: 310px;
+}
+.aboutArticle {
+  display: inline;
+  float: left;
+  width: 620px;
+  margin: 0 10px;
+  margin-top: 127px;
+  color: #2e2e36;
+}
+.aboutArticle h2 {
+  margin-bottom: 30px;
+}
+.circleImage {
+  float: left;
+  width: 780px;
+  height: 780px;
+  margin-top: 190px;
+  margin-left: 110px;
+  background: url(../images/circle.png);
+}

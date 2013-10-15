@@ -1,0 +1,10 @@
+/* CSS crunched with Crunch - http://crunchapp.net/ */
+body{font-family:'Roboto',sans-serif;}
+h1{font-family:'Exo',sans-serif;font-size:2em;}
+h2{font-family:'Exo',sans-serif;font-size:2em;}
+h3{font-family:'Exo',sans-serif;font-size:2em;}
+body{width:100%;*zoom:1;}body:before,body:after{content:"";display:table;}
+body:after{clear:both;}
+#container{width:1020px;height:1847px;margin:0 auto;}
+.object1{-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);width:940px;height:940px;}
+.reverseRotation{-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg);width:940px;height:940px;background:url("../images/mountainsBG.jpg") no-repeat center bottom;}

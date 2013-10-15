@@ -1,0 +1,205 @@
+@import 'styles/brand.less';
+@import 'styles/typography.less';
+@import 'styles/grid.less';
+@import 'styles/mixins.less';
+
+.wrapper{
+	width: 960px;
+	height: 1847px;
+	margin:0 auto;
+}
+.wrapper2{
+	width: 960px;
+	height: 1666px;
+	margin:0 auto;
+}
+.object1{
+	.column(12);
+	height: 1167px;
+	overflow: hidden;
+	position: relative;
+		.positionElement{
+			position: relative;
+			top:-740px;
+			z-index: -1;
+			.element{
+			.square(940px);
+			.rotate(-45deg);
+			position: relative;
+			overflow: hidden;
+			&:before{
+				content: "";
+				position: absolute;
+				width: 200%;
+				height: 200%;
+				top: -50%;
+				left: -50%;
+				z-index: -1;
+				background: url(../images/mountainsBG.jpg) 394px 436px;
+				.rotate(45deg);
+			}
+		}
+	}
+}
+.blank2{
+	.column(2);
+	height: 1px;
+}
+.blank3{
+	.column(3);
+	height: 1px;
+}
+.blank4{
+	.column(4);
+	height: 1px;
+}
+.siteHeading{
+	.column(8);
+	margin-top: 100px;
+	float: left;
+	font-size: @basefontsize*1.9;
+	color: @darkSyan;
+		h1{
+			text-align: center;
+		}
+}
+.circleBG{
+	.circle(540px);
+	margin: 233px auto 0;
+	background: url(../images/mountainsBG.jpg) 655px 616px;
+	.rotate(180deg);
+	position: relative;
+		.buddha{
+			.rotate(-180deg);
+			margin: 0px auto 0px;
+			background: url(../images/buddha.png) no-repeat;
+			width: 710px;
+			height: 577px;
+			position: absolute;
+			top:-66px;
+			left:-85px;
+		}
+}
+
+.object2{
+	.column(12);
+	margin-top: -254px;
+	height: 934px;
+	overflow: hidden;
+	position: relative;
+	.positionElement{
+		position: relative;
+		top:-535px;
+		z-index: -1;
+		.element{
+			.square(940px);
+			.rotate(-45deg);
+			position: relative;
+			overflow: hidden;
+			&:before{
+				content: "";
+				position: absolute;
+				width: 200%;
+				height: 200%;
+				top: -50%;
+				left: -50%;
+				z-index: -1;
+				background: url(../images/mountains2BG.jpg) 441px 276px;
+				.rotate(45deg);
+			}
+		}
+	}
+}
+
+.nav{
+	.column(4);
+	margin-top: 85px;
+	margin-right: 310px;
+		ul{
+			margin-left: -15px;
+		}
+}
+
+.welcomeBlurb{
+	.column(8);
+	margin-top: 280px;
+		p:last-child{
+			margin-top: 30px;
+			border-top: 2px solid @white;
+			padding: 30px;
+		}
+}
+
+.object3{
+	width: 680px;
+	height: 311px;
+	overflow: hidden;
+	position: relative;
+	margin: 0 auto;
+		.positionElement{
+			position: relative;
+			top:-707px;
+			z-index: -1;
+			.element{
+			.square(680px);
+			.rotate(-45deg);
+			position: relative;
+			overflow: hidden;
+			&:before{
+				content: "";
+				position: absolute;
+				width: 200%;
+				height: 200%;
+				bottom: -50%;
+				left: -50%;
+				z-index: -1;
+				background: url(../images/mountainsBG.jpg) 254px 0px;
+				.rotate(45deg);
+			}
+		}
+	}
+}
+
+.topHeader {
+	float: left;
+	width: 680px;
+	margin: 19px 10px 0;
+	color: @lightSyan;
+}
+.nav2 {
+	width: 680px;
+	margin-top: 115px;
+	margin-right: 310px;
+}
+.aboutArticle{
+	.column(8);
+	margin-top:127px;
+	h2{
+		margin-bottom: 30px;
+	}
+	color: @black;
+}
+.circleImage{
+	float: left;
+	width:780px;
+	height: 780px;
+	margin-top: 190px;
+	margin-left: 110px;
+	background: url(../images/circle.png)
+}
+
+.seremonialEvents{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
